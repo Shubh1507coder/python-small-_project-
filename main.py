@@ -19,5 +19,5 @@ label = tk.Label(root,text= " Name : Shubham Sharma \n Phone number :9519168978 
 label.pack(padx=20,pady=20)
 close_button = tk.Button(root,text = "close" ,command = root.quit)
 close_button.pack(pady =10)
-root.mainloop() # yeh aapka GUI event loop shuru karta hai jo window ko display karta hai aur user interaction ka intezaar karta hai
+root.mainloop() 
 
